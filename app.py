@@ -13,7 +13,7 @@ import cv2
 from tensorflow.keras.models import load_model
 
 # Load the model
-model = load_model('model.h5')  # Replace with your actual model path
+model = load_model('major.py')  # Replace with your actual model path
 
 # Define mappings for predictions
 disaster_names = {0: "cyclone", 1: "earthquake", 2: "flood", 3: "wildfire"}
