@@ -24,8 +24,8 @@ import zipfile
 drive.mount('/content/drive')
 
 # Define ZIP file and extraction path
-zip_path = '/content/final.zip'  # Update if necessary
-extract_path = '/content/final_dataset'
+zip_path = 'final.zip'  # Update if necessary
+extract_path = 'final_dataset'
 
 # Extract the ZIP file
 if not os.path.exists(extract_path):
